@@ -1,0 +1,33 @@
+div,table,tr,td,tbody{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.container {
+    /* background: black; */
+    display: inline-block;
+    height: 640px;
+    width: 700px;
+    border: 10px solid black;
+}
+body{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.cell{
+    height: 5px;
+    width: 5px;
+    /* background: rgb(160, 160, 163); */
+}
+.activeCell{
+    height: 5px;
+    width: 5px;
+    /* display: inline-block; */
+    background: black;
+}
+.eggCell{
+    height: 5px;
+    width: 5px;
+    background: rgb(221, 88, 88);
+}
